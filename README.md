@@ -1,1 +1,1 @@
-Hotel Booking Application
+Hotel Booking Application MERN Stack

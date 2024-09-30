@@ -1,1 +1,1 @@
-Hotel Booking Full Application hotel
+Hotel Booking

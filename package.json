@@ -41,6 +41,8 @@
     "world-countries": "^5.0.0"
   },
   "devDependencies": {
+    "@swc/cli": "^0.4.1-nightly.20240914",
+    "@swc/core": "^1.7.26",
     "@tailwindcss/forms": "^0.5.4",
     "eslint": "^8.57.1",
     "leaflet-defaulticon-compatibility": "^0.1.2"

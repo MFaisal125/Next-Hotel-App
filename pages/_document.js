@@ -40,7 +40,7 @@ export default function Document() {
         />
         <meta
           property="og:url"
-          content="https://hotel-booking-myapp.vercel.app"
+          content="https://travello-template.vercel.app"
         />
         <meta
           property="og:description"
@@ -56,7 +56,7 @@ export default function Document() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://hotel-booking-myapp.vercel.app"
+          content="https://travello-template.vercel.app"
         />
         <meta
           name="twitter:title"

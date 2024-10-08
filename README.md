@@ -1,1 +1,1 @@
-Hotel Booking Full-Stack Application is here
+Hotel Booking Full-Stack Application

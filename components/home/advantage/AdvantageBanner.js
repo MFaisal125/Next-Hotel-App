@@ -6,7 +6,7 @@ const AdvantageBanner = () => {
     <LoadImage
       src="/assets/static/Choosing Us Banner.png"
       alt={"advantage"}
-      height={633}
+      height={433}
       width={541}
       className="w-full rounded border border-primary"
     />

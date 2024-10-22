@@ -8,7 +8,7 @@ export default async function verify(req, res, next) {
     if (!token) {
       return res.send({
         acknowledgement: false,
-        message: "Unauthorized, No token found",
+        message: "Unauthorized access, No User Found",
       });
     }
 
@@ -22,7 +22,7 @@ export default async function verify(req, res, next) {
   } catch (error) {
     return res.send({
       acknowledgement: false,
-      message: "Unauthorized, Invalid token",
+      message: "Please Create an Account to Access all Features",
     });
   }
 }

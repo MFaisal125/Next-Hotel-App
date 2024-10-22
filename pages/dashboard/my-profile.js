@@ -1,18 +1,3 @@
-/**
- * Title: Write a program using JavaScript on My-profile
- * Author: Hasibul Islam
- * Portfolio: https://devhasibulislam.vercel.app
- * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/devhasibulislam
- * Facebook: https://facebook.com/devhasibulislam
- * Instagram: https://instagram.com/devhasibulislam
- * Twitter: https://twitter.com/devhasibulislam
- * Pinterest: https://pinterest.com/devhasibulislam
- * WhatsApp: https://wa.me/8801906315901
- * Telegram: devhasibulislam
- * Date: 31, January 2024
- */
-
 import Button from "@/components/shared/button/Button";
 import LoadImage from "@/components/shared/image/LoadImage";
 import Modal from "@/components/shared/modal/Modal";
@@ -299,8 +284,8 @@ function RemoveInformation({ id }) {
               </div>
               <div className="text-sm flex flex-col gap-y-2.5">
                 <p className="flex flex-row gap-x-1 items-center">
-                  <MdWarningAmber className="w-5 h-5" /> This action can&lsquo;t be
-                  undone!
+                  <MdWarningAmber className="w-5 h-5" /> This action can&lsquo;t
+                  be undone!
                 </p>
                 <p className="flex flex-row gap-x-1 items-center">
                   <LuShoppingCart className="h-5 w-5" /> Your cart items will be

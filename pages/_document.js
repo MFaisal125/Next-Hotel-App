@@ -7,11 +7,11 @@ export default function Document() {
         {/* Primary Meta Tags  */}
         <meta
           name="title"
-          content="Hotel-Booking - Comprehensive travel platform for diverse booking needs"
+          content="Hotel Booking - Comprehensive traveling and booking platform for diverse booking needs worldwide"
         />
         <meta
           name="description"
-          content="For all kinds of travel agencies. Including tours, hotel booking, travel experiences, online booking,, holiday rental, and resort rental"
+          content="For all kinds of Booking needs. Including tours, hotel booking, travel experiences, online booking,, holiday rental, and resort rental"
         />
         <meta
           name="keywords"
@@ -32,44 +32,35 @@ export default function Document() {
         {/* Open Graph / Facebook Meta Tags */}
         <meta
           property="og:title"
-          content="Hotel Booking - Comprehensive travel agency platform for diverse booking needs worldwide"
+          content="Hotel Booking - Comprehensive traveling and booking platform for diverse booking needs worldwide"
         />
         <meta
           property="og:site_name"
-          content="Hotel Booking - Comprehensive travel agency platform for diverse booking needs worldwide"
+          content="Hotel Booking - Comprehensive traveling and booking platform for diverse booking needs worldwide"
         />
-        <meta
-          property="og:url"
-          content="https://travello-template.vercel.app"
-        />
+        <meta property="og:url" content="https://next-hotel-app.vercel.app" />
         <meta
           property="og:description"
           content="Perfect for all kinds of travel agency. Including tours, hotel booking, activity/event, travel experiences, online booking, room bnb, villa rental, holiday rental, resort rental, cruises, car rentals, real estate, flight ticket, and more"
         />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1692935077/samples/travello_template.png"
-        />
+        <meta property="og:image" content="" />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://travello-template.vercel.app"
+          content="https://next-hotel-app.vercel.app"
         />
         <meta
           name="twitter:title"
-          content="Hotel Booking - Comprehensive travel agency platform for diverse booking needs worldwide"
+          content="Hotel Booking - Comprehensive traveling and booking platform for diverse booking needs worldwide"
         />
         <meta
           name="twitter:description"
           content="Perfect for all kinds of travel agency. Including tours, hotel booking, activity/event, travel experiences, online booking, room bnb, villa rental, holiday rental, resort rental, cruises, car rentals, real estate, flight ticket, and more"
         />
-        <meta
-          name="twitter:image"
-          content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1692935077/samples/travello_template.png"
-        />
+        <meta name="twitter:image" content="" />
 
         <meta name="pinterest-rich-pin" content="true" />
         <meta
@@ -80,10 +71,7 @@ export default function Document() {
           name="pinterest:description"
           content="Perfect for all kinds of travel agency. Including tours, hotel booking, activity/event, travel experiences, online booking, room bnb, villa rental, holiday rental, resort rental, cruises, car rentals, real estate, flight ticket, and more"
         />
-        <meta
-          name="pinterest:image"
-          content="https://res.cloudinary.com/dho0rpn5a/image/upload/v1692935077/samples/travello_template.png"
-        />
+        <meta name="pinterest:image" content="" />
       </Head>
       <body>
         <Main />

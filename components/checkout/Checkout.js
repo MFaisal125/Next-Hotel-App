@@ -79,7 +79,7 @@ const Checkout = ({ members, duration }) => {
           ) : (
             <section className="w-full h-full grid grid-cols-12 gap-8">
               <article className="h-full w-full lg:col-span-7 md:col-span-8 col-span-12 flex flex-col gap-y-8">
-                <h1 className="text-xl">Pay Travello Booking</h1>
+                <h1 className="text-xl">Pay Hotel Booking</h1>
                 <div className="flex flex-col gap-y-2">
                   <div className="flex flex-col gap-y-1">
                     <span className="flex -space-x-4">

@@ -4,8 +4,8 @@ import Search from "./Search";
 const Banner = () => {
   const bannerImages = useMemo(
     () => [
-      "https://github.com/devhasibulislam/travello-template/blob/master/public/assets/tours-page/banner1.jpg?raw=true",
-      "https://github.com/devhasibulislam/travello-template/blob/master/public/assets/tours-page/banner2.jpg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner1.jpg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner2.jpg?raw=true",
     ],
     []
   );

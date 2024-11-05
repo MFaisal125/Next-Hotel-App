@@ -22,14 +22,14 @@ const Banner = () => {
       setBackgroundImage(
         bannerImages[Math.floor(Math.random() * bannerImages.length)]
       );
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(intervalId);
   }, [bannerImages]);
 
   return (
     <section
-      className="bg-no-repeat bg-auto bg-bottom relative before:content-[''] before:absolute before:w-full before:h-full before:bg-black/60 before:top-0 before:left-0 before:-z-10 z-20 flex flex-col gap-y-12 h-[80vh] justify-center w-full max-w-full object-cove
+      className="bg-no-repeat bg-auto bg-bottom relative before:content-[''] before:absolute before:w-full before:h-full before:bg-black/40 before:top-0 before:left-0 before:-z-10 z-20 flex flex-col gap-y-12 h-[80vh] justify-center w-full max-w-full object-cove
       px-4"
       style={{
         backgroundImage: `url(${backgroundImage})`,

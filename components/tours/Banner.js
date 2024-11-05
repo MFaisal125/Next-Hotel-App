@@ -5,10 +5,10 @@ const Banner = () => {
   const bannerImages = useMemo(
     () => [
       "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner1.jpg?raw=true",
-      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner2.jpeg?raw=true",
-      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner3.jpeg?raw=true",
-      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner4.jpeg?raw=true",
-      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner5.jpeg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner2.jpg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner3.jpg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner4.jpg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner5.jpg?raw=true",
     ],
     []
   );

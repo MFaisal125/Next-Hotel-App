@@ -51,7 +51,7 @@ const ForgotPassword = () => {
               name="email"
               id="email"
               {...register("email", { required: true })}
-              placeholder="i.e. devhasibulislam@gmail.com"
+              placeholder="i.e. Muhammad123@gmail.com"
               className=""
             />
           </label>
@@ -62,7 +62,7 @@ const ForgotPassword = () => {
               name="password"
               id="password"
               {...register("password", { required: true })}
-              placeholder="i.e. Hasib@123"
+              placeholder="i.e. User@123"
               className=""
             />
           </label>

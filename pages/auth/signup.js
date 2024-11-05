@@ -150,7 +150,7 @@ const Signup = () => {
               name="phone"
               id="phone"
               {...register("phone", { required: true })}
-              placeholder="i.e. +8801906315901"
+              placeholder="i.e. +920307315901"
               className=""
             />
           </label>

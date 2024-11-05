@@ -9,10 +9,6 @@ const Banner = () => {
       "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner3.jpeg?raw=true",
       "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner4.jpeg?raw=true",
       "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner5.jpeg?raw=true",
-      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner6.jpeg?raw=true",
-      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner7.jpeg?raw=true",
-      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner8.jpeg?raw=true",
-      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner9.jpeg?raw=true",
     ],
     []
   );

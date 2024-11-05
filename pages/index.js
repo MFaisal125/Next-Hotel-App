@@ -12,6 +12,7 @@ import Reviews from "@/components/shared/review/Reviews";
 import Gallery from "@/components/home/gallery/Gallery";
 import NewsLetter from "@/components/home/news-letter/NewsLetter";
 import FeatureTour from "@/components/home/steps/FeatureTour";
+
 export default function Home() {
   return (
     <main>
@@ -24,6 +25,7 @@ export default function Home() {
         <BestSelling />
         <Advantage />
         <Reviews />
+
         <Gallery />
       </Main>
     </main>

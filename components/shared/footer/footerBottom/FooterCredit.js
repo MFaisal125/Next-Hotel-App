@@ -10,7 +10,7 @@ const FooterCredit = () => {
           href="https://www.linkedin.com"
           className="text-primary hover:text-primary/50"
         >
-          abc@gmail.com
+          mfaisal441254@gmail.com
         </Link>{" "}
         &{" "}
         <Link

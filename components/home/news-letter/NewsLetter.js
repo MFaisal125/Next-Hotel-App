@@ -18,7 +18,7 @@ const NewsLetter = () => {
         <section className="w-full h-full lg:gap-x-4 gap-y-12 grid grid-cols-12">
           <div className="lg:col-span-5 col-span-12 rounded relative">
             <LoadImage
-              src="/assets/static/News Letter.png"
+              src="/assets/static/News Letter.jpg"
               alt="newsletter"
               height={302}
               width={440}

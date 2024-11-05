@@ -33,7 +33,7 @@ const HeroSlider = () => {
           if (mouseOver) return;
           timeout = setTimeout(() => {
             slider.next();
-          }, 3000);
+          }, 2000);
         }
         slider.on("created", () => {
           slider.container.addEventListener("mouseover", () => {
@@ -71,7 +71,7 @@ const HeroSlider = () => {
                 height={512}
                 width={364}
                 className="rounded border border-primary md:ml-auto mx-auto"
-                title="Dimension: 364x512"
+                title="Please Book a Room!"
               />
             </div>
           ))}

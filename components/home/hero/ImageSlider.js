@@ -29,7 +29,7 @@ const ImageSlider = ({ images, delay }) => {
             height={512}
             width={364}
             className="max-w-[364px] h-[512px] object-cover rounded border border-primary"
-            title="Dimension: 364x512"
+            title="Please Book a Room!"
           />
         </div>
       ))}

@@ -25,7 +25,6 @@ export default function Home() {
         <Advantage />
         <Reviews />
         <Gallery />
-        <NewsLetter />
       </Main>
     </main>
   );

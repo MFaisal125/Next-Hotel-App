@@ -5,7 +5,14 @@ const Banner = () => {
   const bannerImages = useMemo(
     () => [
       "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner1.jpg?raw=true",
-      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner2.jpg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner2.jpeg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner3.jpeg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner4.jpeg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner5.jpeg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner6.jpeg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner7.jpeg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner8.jpeg?raw=true",
+      "https://github.com/MFaisal125/Next-Hotel-App/blob/main/public/assets/tours-page/banner9.jpeg?raw=true",
     ],
     []
   );
@@ -26,7 +33,8 @@ const Banner = () => {
 
   return (
     <section
-      className="bg-no-repeat bg-auto bg-bottom relative before:content-[''] before:absolute before:w-full before:h-full before:bg-black/60 before:top-0 before:left-0 before:-z-10 z-20 flex flex-col gap-y-12 h-[70vh] justify-center px-4"
+      className="bg-no-repeat bg-auto bg-bottom relative before:content-[''] before:absolute before:w-full before:h-full before:bg-black/60 before:top-0 before:left-0 before:-z-10 z-20 flex flex-col gap-y-12 h-screen justify-center w-full max-w-full object-cove
+      px-4"
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}

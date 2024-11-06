@@ -204,7 +204,6 @@ const UserRows = ({ purchases }) => {
                           }
                         >
                           <option value="pending">Pending</option>
-                          <option value="success">Success</option>
                         </select>
                       ) : (
                         status

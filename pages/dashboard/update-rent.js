@@ -17,7 +17,7 @@ import { CgTrash } from "react-icons/cg";
 import { IoCloudUploadOutline } from "react-icons/io5";
 
 const UpdateRent = () => {
-  const [country, setCountry] = useState("Bangladesh");
+  const [country, setCountry] = useState("Pakistan");
   const { query } = useRouter();
   const {
     data: rentData,
@@ -85,7 +85,7 @@ const UpdateRent = () => {
 
   useEffect(() => {
     reset(defaultValues);
-    setCountry(defaultValues?.location || "Bangladesh");
+    setCountry(defaultValues?.location || "Pakistan");
     setGalleryPreview(defaultValues?.gallery || []);
   }, [defaultValues, reset]);
 

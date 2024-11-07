@@ -391,7 +391,7 @@ function Checkout({ rent, setIsOpen, members }) {
       ) : (
         <section className="flex flex-col gap-8">
           <article className="h-full w-full flex flex-col gap-y-8">
-            <h1 className="text-xl">Pay Travello Booking</h1>
+            <h1 className="text-xl">Pay Hotel Booking</h1>
             <div className="flex flex-col gap-y-2">
               <div className="flex flex-col gap-y-1">
                 <span className="flex -space-x-4">
@@ -446,7 +446,7 @@ function Checkout({ rent, setIsOpen, members }) {
                   <input
                     {...field}
                     type="text"
-                    placeholder="Hasibul Islam"
+                    placeholder="Muhammad Faisal"
                     className="w-full border rounded p-2"
                   />
                 </label>
@@ -466,7 +466,7 @@ function Checkout({ rent, setIsOpen, members }) {
                   <input
                     {...field}
                     type="email"
-                    placeholder="devhasibulislam@gmail.com"
+                    placeholder="Muhammad123@gmail.com"
                     className="w-full border rounded p-2"
                   />
                 </label>
@@ -527,9 +527,11 @@ function Checkout({ rent, setIsOpen, members }) {
                   Enter Card CVC*
                   <input
                     {...field}
-                    type="number"
+                    type="text"
                     placeholder="123"
                     className="w-full border rounded p-2"
+                    pattern="\d*"
+                    maxlength="3"
                   />
                 </label>
               )}

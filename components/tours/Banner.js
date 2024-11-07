@@ -29,8 +29,7 @@ const Banner = () => {
 
   return (
     <section
-      className="bg-no-repeat bg-auto bg-bottom relative before:content-[''] before:absolute before:w-full before:h-full before:bg-black/40 before:top-0 before:left-0 before:-z-10 z-20 flex flex-col gap-y-12 h-[80vh] justify-center w-full max-w-full object-cove
-      px-4"
+      className="bg-no-repeat bg-auto bg-bottom relative before:content-[''] before:absolute before:w-full before:h-full before:bg-black/40 before:top-0 before:left-0 before:-z-10 z-20 flex flex-col gap-y-12 h-[80vh] justify-center w-full max-w-full object-cover px-4"
       style={{
         backgroundImage: `url(${backgroundImage})`,
       }}

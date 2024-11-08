@@ -194,7 +194,7 @@ const Card = ({ tour }) => {
           <div className="flex items-center justify-between">
             <span className="text-xs flex items-center gap-x-1">
               <IoMdPricetag className="w-4 h-4 text-primary" />
-              <span className="capitalize">{price}/night</span>
+              <span className="capitalize">PKR {price}/night</span>
             </span>
             <Button
               className="px-4 py-1 text-xs"

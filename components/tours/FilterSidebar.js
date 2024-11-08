@@ -17,7 +17,7 @@ import {
 const FilterSidebar = () => {
   const [selectedCategory, setSelectedCategory] = useState([]);
   const [selectedCountries, setSelectedCountries] = useState([]);
-  const [priceRange, setPriceRangeLocal] = useState({ min: 5, max: 500 });
+  const [priceRange, setPriceRangeLocal] = useState({ min: 5000, max: 500000 });
   const [dateRange, setDateRangeLocal] = useState({
     startDate: null,
     endDate: null,
@@ -162,8 +162,8 @@ const FilterSidebar = () => {
               className="flex-1 bg-secondary appearance-none h-0 rounded"
             />
             <p className="text-xs flex flex-row items-center justify-between">
-              ${priceRange.min.toFixed(2)}
-              <span className="text-xs"> ${priceRange.max.toFixed(2)}</span>
+              PRK {priceRange.min.toFixed(2)}
+              <span className="text-xs"> PRK {priceRange.max.toFixed(2)}</span>
             </p>
           </label>
         </div>

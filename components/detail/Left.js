@@ -261,7 +261,7 @@ const Left = () => {
                       value={tour?.price * members}
                     />
                     <span className="h-8 w-8 rounded-secondary border border-black flex justify-center items-center p-1.5">
-                      <MdAttachMoney className="w-6 h-6" />
+                      <div className="w-6 h-6">Rs</div>
                     </span>
                   </label>
                 )}

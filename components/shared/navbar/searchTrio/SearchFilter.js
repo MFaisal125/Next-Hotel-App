@@ -109,7 +109,7 @@ const SearchFilter = ({ setIsModalOpen }) => {
                 />
                 <p className="flex flex-row gap-x-2 mt-1">
                   <span className="text-xs border border-cyan-900 px-2 rounded">
-                    ${price}/night
+                    PKR {price}/night
                   </span>
                   <span
                     className="text-end text-xs text-gray-500 line-clamp-1 border border-teal-900 px-2 rounded"

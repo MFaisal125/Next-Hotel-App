@@ -26,8 +26,8 @@ const Logo = () => {
          * 2nd Parameter: Height
          */
         title="logo"
-        width={60}
-        height={50}
+        width={90}
+        height={60}
         style={{
           maxWidth: "100%",
           height: "auto",

@@ -133,7 +133,7 @@ const MyProfile = () => {
               name="name"
               id="name"
               {...register("name")}
-              placeholder="i.e. Hasibul Islam"
+              placeholder="i.e. Muhammad Ali"
               className=""
             />
           </label>
@@ -145,7 +145,7 @@ const MyProfile = () => {
               name="email"
               id="email"
               {...register("email")}
-              placeholder="i.e. devhasibulislam@gmail.com"
+              placeholder="i.e. Muhammad@gmail.com"
               className=""
             />
           </label>
@@ -157,7 +157,7 @@ const MyProfile = () => {
               name="phone"
               id="phone"
               {...register("phone")}
-              placeholder="i.e. +8801906315901"
+              placeholder="i.e. +920306315901"
               className=""
             />
           </label>

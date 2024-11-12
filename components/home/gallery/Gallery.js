@@ -70,12 +70,8 @@ const Gallery = () => {
       images: 21,
     },
     {
-      title: "Forest",
+      title: "Tours",
       images: 33,
-    },
-    {
-      title: "Mountains",
-      images: 30,
     },
     {
       title: "Sea Beaches",
@@ -83,7 +79,7 @@ const Gallery = () => {
     },
   ];
 
-  const [tab, setTab] = useState("Forest");
+  const [tab, setTab] = useState("Hotel");
   const [counter, setCounter] = useState(9);
   const containerRef = useRef(null);
 

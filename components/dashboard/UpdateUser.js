@@ -124,7 +124,7 @@ const UpdateUser = ({ setIsOpen }) => {
           name="name"
           id="name"
           {...register("name")}
-          placeholder="i.e. Hasibul Islam"
+          placeholder="i.e. Muhammad Ali"
           className=""
         />
       </label>
@@ -136,7 +136,7 @@ const UpdateUser = ({ setIsOpen }) => {
           name="email"
           id="email"
           {...register("email")}
-          placeholder="i.e. devhasibulislam@gmail.com"
+          placeholder="i.e. Muhammad@gmail.com"
           className=""
         />
       </label>
@@ -164,7 +164,7 @@ const UpdateUser = ({ setIsOpen }) => {
           name="phone"
           id="phone"
           {...register("phone")}
-          placeholder="i.e. +8801906315901"
+          placeholder="i.e. +9203006315901"
           className=""
         />
       </label>

@@ -10,7 +10,7 @@ import "keen-slider/keen-slider.min.css";
 import { useGetAllReviewsQuery } from "@/services/review/reviewApi";
 import { toast } from "react-hot-toast";
 
-const animation = { duration: 50000, easing: (t) => t };
+const animation = { duration: 20000, easing: (t) => t };
 
 const Reviews = ({ className }) => {
   const { isLoading, data, error } = useGetAllReviewsQuery();

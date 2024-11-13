@@ -97,7 +97,7 @@ function SellerView({ rents }) {
                 <p className="line-clamp-2 text-sm">{rent?.summary}</p>
                 <p className="flex flex-row gap-x-2 mt-1">
                   <span className="text-xs border border-cyan-900 px-2 py-0.5 rounded flex flex-row gap-x-1 items-center">
-                    <IoMdPricetag className="w-4 h-4 text-primary" /> $
+                    <IoMdPricetag className="w-4 h-4 text-primary" /> PKR
                     {rent?.price}/night
                   </span>
                   <span className="text-end text-xs text-gray-500 line-clamp-1 border border-teal-900 px-2 rounded flex flex-row gap-x-1 items-center">

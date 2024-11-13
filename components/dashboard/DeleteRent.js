@@ -109,7 +109,7 @@ const DeleteRent = ({ id }) => {
                   <p className="text-xs whitespace-normal">{rent.summary}</p>
                   <p className="flex flex-row gap-x-1">
                     <span className="bg-purple-100/50 text-purple-900 border border-purple-900 px-1.5 !text-xs rounded-primary uppercase">
-                      ${rent.price} per night
+                      PKR {rent.price} per night
                     </span>
                     <span className="bg-indigo-100/50 text-indigo-900 border border-indigo-900 px-1.5 !text-xs rounded-primary uppercase">
                       {rent.type}

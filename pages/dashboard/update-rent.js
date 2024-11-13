@@ -236,11 +236,11 @@ const UpdateRent = () => {
               type="text"
               name="title"
               id="title"
-              maxLength={100}
+              maxLength={300}
               placeholder="Type rent title here..."
               className="rounded"
               {...register("title")}
-              maxlength="100"
+              maxlength="300"
             />
           </label>
 
@@ -250,12 +250,12 @@ const UpdateRent = () => {
             <textarea
               name="summary"
               id="summary"
-              rows="5"
-              maxLength={500}
+              rows="10"
+              maxLength={1000}
               placeholder="Type rent summary here..."
               className="rounded"
               {...register("summary")}
-              maxlength="500"
+              maxlength="1000"
             ></textarea>
           </label>
 

@@ -42,7 +42,7 @@ function UserRows({ rents }) {
                   Title
                 </th>
                 <th scope="col" className="px-6 py-3">
-                  <span className="text-xs whitespace-nowrap">Price ($)</span>
+                  <span className="text-xs whitespace-nowrap">Price (PKR)</span>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   Members
@@ -226,7 +226,9 @@ function AdminRows() {
                     Title
                   </th>
                   <th scope="col" className="px-6 py-3">
-                    <span className="text-xs whitespace-nowrap">Price ($)</span>
+                    <span className="text-xs whitespace-nowrap">
+                      Price (PKR)
+                    </span>
                   </th>
                   <th scope="col" className="px-6 py-3">
                     Members

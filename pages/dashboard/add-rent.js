@@ -168,11 +168,11 @@ const AddRent = () => {
             type="text"
             name="title"
             id="title"
-            maxLength={100}
+            maxLength={300}
             placeholder="Type rent title here..."
             className="rounded"
             {...register("title", { required: true })}
-            maxlength="100"
+            maxlength="300"
           />
         </label>
 
@@ -182,12 +182,12 @@ const AddRent = () => {
           <textarea
             name="summary"
             id="summary"
-            rows="5"
-            maxLength={500}
+            rows="10"
+            maxLength={1000}
             placeholder="Type rent summary here..."
             className="rounded"
             {...register("summary", { required: true })}
-            maxlength="500"
+            maxlength="1000"
           ></textarea>
         </label>
 
@@ -201,7 +201,7 @@ const AddRent = () => {
             placeholder="Type rent price here..."
             className="rounded"
             min={5}
-            max={500}
+            max={1000000}
             {...register("price", { required: true })}
           />
         </label>

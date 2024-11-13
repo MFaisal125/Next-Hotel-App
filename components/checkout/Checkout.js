@@ -113,7 +113,7 @@ const Checkout = ({ members, duration }) => {
                   </p>
                   <hr />
                   <p className="flex flex-row justify-between items-center">
-                    <span className="">Total Cost ($)</span>
+                    <span className="">Total Cost (PKR)</span>
                     <span className="">{members * rent?.price}</span>
                   </p>
                 </div>

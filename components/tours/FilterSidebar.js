@@ -17,7 +17,7 @@ import {
 const FilterSidebar = () => {
   const [selectedCategory, setSelectedCategory] = useState([]);
   const [selectedCountries, setSelectedCountries] = useState([]);
-  const [priceRange, setPriceRangeLocal] = useState({ min: 50, max: 5000 });
+  const [priceRange, setPriceRangeLocal] = useState({ min: 5000, max: 100000 });
   const [dateRange, setDateRangeLocal] = useState({
     startDate: null,
     endDate: null,
@@ -153,8 +153,8 @@ const FilterSidebar = () => {
               type="range"
               name="price"
               id="price"
-              min={50}
-              max={5000}
+              min={5000}
+              max={100000}
               value={priceRange.min}
               onChange={(e) =>
                 handlePriceRangeChange(Number(e.target.value), priceRange.max)

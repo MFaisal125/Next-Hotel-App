@@ -74,7 +74,7 @@ const SearchFilter = ({ setIsModalOpen }) => {
         className="w-full rounded border-1 border-primary text-sm"
         placeholder="Enter your destination here..."
         onChange={handleSearch}
-        autoComplete="off"
+        autoComplete="on"
       />
       <div className="flex flex-col gap-y-2.5 h-full overflow-y-auto">
         {filteredTravels.length === 0 ? (

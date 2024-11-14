@@ -17,7 +17,7 @@ import { IoIosStar, IoIosStarOutline } from "react-icons/io";
 import { useAddReviewMutation } from "@/services/review/reviewApi";
 import { toast } from "react-hot-toast";
 
-const animation = { duration: 50000, easing: (t) => t };
+const animation = { duration: 20000, easing: (t) => t };
 
 const AllReviews = ({ className }) => {
   const { handleSubmit, control, reset } = useForm();

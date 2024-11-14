@@ -200,8 +200,8 @@ const AddRent = () => {
             id="price"
             placeholder="Type rent price here..."
             className="rounded"
-            min={5000}
-            max={100000}
+            min={1000}
+            max={8000}
             {...register("price", { required: true })}
           />
         </label>

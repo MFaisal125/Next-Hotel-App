@@ -153,8 +153,8 @@ const FilterSidebar = () => {
               type="range"
               name="price"
               id="price"
-              min={5}
-              max={500}
+              min={50}
+              max={500000}
               value={priceRange.min}
               onChange={(e) =>
                 handlePriceRangeChange(Number(e.target.value), priceRange.max)

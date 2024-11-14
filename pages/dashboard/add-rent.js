@@ -182,7 +182,7 @@ const AddRent = () => {
           <textarea
             name="summary"
             id="summary"
-            rows="10"
+            rows="5"
             maxLength={1000}
             placeholder="Type rent summary here..."
             className="rounded"

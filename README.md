@@ -1,4 +1,4 @@
-Hotel Booking Full-Stack Mern Application
+Hotel Booking Full-Stack Mern Applications
 
 ## Features
 

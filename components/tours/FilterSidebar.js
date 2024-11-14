@@ -162,8 +162,8 @@ const FilterSidebar = () => {
               className="flex-1 bg-secondary appearance-none h-0 rounded"
             />
             <p className="text-xs flex flex-row items-center justify-between">
-              PRK {priceRange.min.toFixed(2)}
-              <span className="text-xs"> PRK {priceRange.max.toFixed(2)}</span>
+              PKR {priceRange.min.toFixed(2)}
+              <span className="text-xs"> PKR {priceRange.max.toFixed(2)}</span>
             </p>
           </label>
         </div>

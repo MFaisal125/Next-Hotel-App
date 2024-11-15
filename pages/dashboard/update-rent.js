@@ -236,11 +236,11 @@ const UpdateRent = () => {
               type="text"
               name="title"
               id="title"
-              maxLength={300}
+              maxLength={100}
               placeholder="Type rent title here..."
               className="rounded"
               {...register("title")}
-              maxlength="300"
+              maxlength="100"
             />
           </label>
 

@@ -341,7 +341,7 @@ const UpdateRent = () => {
                   onChange: (e) => setCountry(e.target.value),
                 })}
               >
-                <option selected disabled>
+                <option selected Enabled>
                   {country}
                 </option>
                 {countries?.map((country, index) => (

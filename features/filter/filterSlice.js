@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   category: [],
   countries: [],
-  priceRange: { min: 5, max: 500 },
+  priceRange: { min: 1000, max: 8000 },
   dateRange: { startDate: null, endDate: null },
   // ratings: [],
 };

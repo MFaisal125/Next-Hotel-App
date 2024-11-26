@@ -56,7 +56,7 @@ const BestSelling = ({ className }) => {
                   <SkeletonCard key={index} />
                 ))
               : tours
-                  ?.slice(0, 8)
+                  ?.slice(0, 12)
                   ?.map((tour) => <Card key={tour._id} tour={tour} />)}
           </div>
         </section>

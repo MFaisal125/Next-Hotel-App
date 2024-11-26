@@ -3,7 +3,7 @@ import LoadImage from "../image/LoadImage";
 
 const Screen = () => {
   return (
-    <section className="flex justify-center items-center h-screen w-screen bg-secondary/10">
+    <section className="flex justify-center items-center h-screen w-screen bg-opacity-0 bg-black">
       <LoadImage
         src="/loading7.gif"
         alt="loading"

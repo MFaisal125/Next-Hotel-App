@@ -9,7 +9,7 @@ const Screen = () => {
         alt="loading"
         height={300}
         width={300}
-        className=""
+        className="animate-pulse transition-all duration-10"
       />
     </section>
   );

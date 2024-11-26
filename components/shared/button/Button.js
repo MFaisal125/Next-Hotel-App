@@ -5,7 +5,7 @@ const Button = ({ children, className, ...rest }) => {
     <button
       {...rest}
       className={
-        "text-sm bg-primary/80 text-white rounded-secondary border-primary border-b-[5px] border-solid hover:bg-primary/90 hover:text-black transition-all delay-100" +
+        "text-sm bg-primary/80 text-white rounded-secondary border-primary border-b-[5px] border-solid hover:bg-primary/90 hover:text-black transition-all delay-75" +
         ` ${className}`
       }
     >

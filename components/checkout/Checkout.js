@@ -55,7 +55,7 @@ const Checkout = ({ members, duration }) => {
     <>
       <button
         type="submit"
-        className="bg-primary hover:bg-secondary hover:text-primary hover:border-primary border border-transparent text-white p-1.5 rounded-primary flex justify-center items-center transition-all delay-100 text-sm w-full"
+        className="bg-primary hover:bg-secondary hover:text-primary hover:border-primary border border-transparent text-white p-1.5 rounded-primary flex justify-center items-center transition-all delay-75 text-sm w-full"
         onClick={() => {
           createPaymentIntent({
             price: rent?.price * members,

@@ -98,7 +98,7 @@ const Card = ({ tour }) => {
         </span>
         {user?.favorite?.rents.some((rent) => rent?._id === _id) ? (
           <button
-            className="absolute top-4 right-4 p-1.5 border rounded-full border-secondary bg-white hover:bg-primary hover:text-white duration-100 z-50 opacity-0 group-hover:opacity-100 transition-opacity ease-linear delay-100"
+            className="absolute top-4 right-4 p-1.5 border rounded-full border-secondary bg-white hover:bg-primary hover:text-white duration-75 z-50 opacity-0 group-hover:opacity-100 transition-opacity ease-linear delay-75"
             onClick={() => deleteFromFavorite(_id)}
           >
             {deleteFromFavoriteLoading ? (
@@ -109,7 +109,7 @@ const Card = ({ tour }) => {
           </button>
         ) : (
           <button
-            className="absolute top-4 right-4 p-1.5 border rounded-full border-secondary bg-white hover:bg-primary hover:text-white duration-100 z-50 opacity-0 group-hover:opacity-100 transition-opacity ease-linear delay-100"
+            className="absolute top-4 right-4 p-1.5 border rounded-full border-secondary bg-white hover:bg-primary hover:text-white duration-75 z-50 opacity-0 group-hover:opacity-100 transition-opacity ease-linear delay-75"
             onClick={() => addToFavorite({ rent: _id })}
           >
             {addToFavoriteLoading ? (

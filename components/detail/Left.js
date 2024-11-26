@@ -270,7 +270,7 @@ const Left = () => {
             <div className="flex flex-row gap-x-2 items-center mt-2">
               <button
                 type="submit"
-                className="bg-primary hover:bg-secondary hover:text-primary hover:border-primary border border-transparent text-white p-1.5 rounded-primary flex justify-center items-center transition-all delay-100 text-sm w-full"
+                className="bg-primary hover:bg-secondary hover:text-primary hover:border-primary border border-transparent text-white p-1.5 rounded-primary flex justify-center items-center transition-all delay-75 text-sm w-full"
               >
                 Book Now
               </button>
@@ -278,7 +278,7 @@ const Left = () => {
               {user?.cart?.rents?.some((rent) => rent?._id === tour?._id) ? (
                 <button
                   type="button"
-                  className="bg-primary hover:bg-secondary hover:text-primary hover:border-primary border border-transparent text-white p-1.5 rounded-primary flex justify-center items-center transition-all delay-100 text-sm"
+                  className="bg-primary hover:bg-secondary hover:text-primary hover:border-primary border border-transparent text-white p-1.5 rounded-primary flex justify-center items-center transition-all delay-75 text-sm"
                   onClick={() => removeFromCart(tour?._id)}
                 >
                   {removeFromCartLoading ? (
@@ -290,7 +290,7 @@ const Left = () => {
               ) : (
                 <button
                   type="button"
-                  className="bg-primary hover:bg-secondary hover:text-primary hover:border-primary border border-transparent text-white p-1.5 rounded-primary flex justify-center items-center transition-all delay-100 text-sm"
+                  className="bg-primary hover:bg-secondary hover:text-primary hover:border-primary border border-transparent text-white p-1.5 rounded-primary flex justify-center items-center transition-all delay-75 text-sm"
                   onClick={() =>
                     addToCart({
                       rent: tour?._id,

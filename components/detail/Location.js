@@ -26,7 +26,7 @@ export default Location;
  * https://medium.com/@tomisinabiodun/displaying-a-leaflet-map-in-nextjs-85f86fccc10c
  
  * -----------------------
- * Next JS + Leaflet Map Tutorial
+ * Next JS + Leaflet Map
  * https://youtu.be/Ody2U-fJ580?si=Wf26KAHMFws3bV2W
  * -----------------------
  * Integrating Next.js with Leaflet.js + Mapbox

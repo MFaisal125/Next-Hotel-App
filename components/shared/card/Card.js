@@ -119,7 +119,7 @@ const Card = ({ tour }) => {
             )}
           </button>
         )}
-        <span className="absolute -bottom-2 right-4 text-xs text-primary bg-white px-3 py-1 rounded-full shadow capitalize z-50">
+        <span className="absolute -bottom-2 right-4 text-xs text-primary bg-white px-3 py-1 rounded-full shadow capitalize z-10">
           {members} Members
         </span>
         <div className="rounded-t relative group">

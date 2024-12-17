@@ -168,11 +168,11 @@ const AddRent = () => {
             type="text"
             name="title"
             id="title"
-            maxLength={300}
+            maxLength={100}
             placeholder="Type rent title here..."
             className="rounded"
             {...register("title", { required: true })}
-            maxlength="300"
+            maxlength="100"
           />
         </label>
 
@@ -183,11 +183,11 @@ const AddRent = () => {
             name="summary"
             id="summary"
             rows="5"
-            maxLength={1000}
+            maxLength={500}
             placeholder="Type rent summary here..."
             className="rounded"
             {...register("summary", { required: true })}
-            maxlength="1000"
+            maxlength="500"
           ></textarea>
         </label>
 

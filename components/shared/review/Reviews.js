@@ -144,7 +144,7 @@ const Reviews = ({ className }) => {
                     <div className="flex flex-row justify-between w-full">
                       <div className="">
                         <h2 className="">{review?.reviewer?.name}</h2>
-                        <p className="text-xs">{review.rent.location}</p>
+                        <p className="text-xs">{review?.rent?.location}</p>
                       </div>
                       <div className="flex flex-col items-end">
                         <p className="text-sm flex flex-row items-center">
@@ -195,5 +195,4 @@ const Reviews = ({ className }) => {
     </section>
   );
 };
-
 export default Reviews;
